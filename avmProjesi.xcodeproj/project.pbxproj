@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		4C5CB6A61ADD3CC2009F9973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6A51ADD3CC2009F9973 /* main.m */; };
 		4C5CB6A91ADD3CC2009F9973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6A81ADD3CC2009F9973 /* AppDelegate.m */; };
-		4C5CB6AC1ADD3CC2009F9973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6AB1ADD3CC2009F9973 /* ViewController.m */; };
 		4C5CB6AF1ADD3CC2009F9973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5CB6AD1ADD3CC2009F9973 /* Main.storyboard */; };
 		4C5CB6B11ADD3CC2009F9973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5CB6B01ADD3CC2009F9973 /* Images.xcassets */; };
 		4C5CB6B41ADD3CC2009F9973 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5CB6B21ADD3CC2009F9973 /* LaunchScreen.xib */; };
 		4C5CB6C01ADD3CC3009F9973 /* avmProjesiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6BF1ADD3CC3009F9973 /* avmProjesiTests.m */; };
+		4C5CB6CB1ADD3E96009F9973 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6CA1ADD3E96009F9973 /* MainViewController.m */; };
+		4C5CB6CF1ADD3F05009F9973 /* ParkCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6CE1ADD3F05009F9973 /* ParkCreateViewController.m */; };
+		4C5CB6D21ADD3F2A009F9973 /* ParkStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6D11ADD3F2A009F9973 /* ParkStatusViewController.m */; };
+		4C5CB6D51ADD4014009F9973 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6D41ADD4014009F9973 /* SearchViewController.m */; };
+		4C5CB6DB1ADD41B8009F9973 /* CategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6DA1ADD41B8009F9973 /* CategoryListViewController.m */; };
+		4C5CB6DE1ADD42A0009F9973 /* MagazaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CB6DD1ADD42A0009F9973 /* MagazaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		4C5CB6A51ADD3CC2009F9973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4C5CB6A71ADD3CC2009F9973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C5CB6A81ADD3CC2009F9973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C5CB6AA1ADD3CC2009F9973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C5CB6AB1ADD3CC2009F9973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C5CB6AE1ADD3CC2009F9973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C5CB6B01ADD3CC2009F9973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4C5CB6B31ADD3CC2009F9973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4C5CB6B91ADD3CC3009F9973 /* avmProjesiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avmProjesiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5CB6BE1ADD3CC3009F9973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C5CB6BF1ADD3CC3009F9973 /* avmProjesiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = avmProjesiTests.m; sourceTree = "<group>"; };
+		4C5CB6C91ADD3E96009F9973 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4C5CB6CA1ADD3E96009F9973 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4C5CB6CD1ADD3F05009F9973 /* ParkCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkCreateViewController.h; sourceTree = "<group>"; };
+		4C5CB6CE1ADD3F05009F9973 /* ParkCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkCreateViewController.m; sourceTree = "<group>"; };
+		4C5CB6D01ADD3F2A009F9973 /* ParkStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkStatusViewController.h; sourceTree = "<group>"; };
+		4C5CB6D11ADD3F2A009F9973 /* ParkStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkStatusViewController.m; sourceTree = "<group>"; };
+		4C5CB6D31ADD4014009F9973 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		4C5CB6D41ADD4014009F9973 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		4C5CB6D91ADD41B8009F9973 /* CategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryListViewController.h; sourceTree = "<group>"; };
+		4C5CB6DA1ADD41B8009F9973 /* CategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryListViewController.m; sourceTree = "<group>"; };
+		4C5CB6DC1ADD42A0009F9973 /* MagazaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagazaViewController.h; sourceTree = "<group>"; };
+		4C5CB6DD1ADD42A0009F9973 /* MagazaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagazaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +98,7 @@
 			children = (
 				4C5CB6A71ADD3CC2009F9973 /* AppDelegate.h */,
 				4C5CB6A81ADD3CC2009F9973 /* AppDelegate.m */,
-				4C5CB6AA1ADD3CC2009F9973 /* ViewController.h */,
-				4C5CB6AB1ADD3CC2009F9973 /* ViewController.m */,
+				4C5CB6CC1ADD3E9F009F9973 /* View Controllers */,
 				4C5CB6AD1ADD3CC2009F9973 /* Main.storyboard */,
 				4C5CB6B01ADD3CC2009F9973 /* Images.xcassets */,
 				4C5CB6B21ADD3CC2009F9973 /* LaunchScreen.xib */,
@@ -117,6 +131,25 @@
 				4C5CB6BE1ADD3CC3009F9973 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C5CB6CC1ADD3E9F009F9973 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C5CB6C91ADD3E96009F9973 /* MainViewController.h */,
+				4C5CB6CA1ADD3E96009F9973 /* MainViewController.m */,
+				4C5CB6CD1ADD3F05009F9973 /* ParkCreateViewController.h */,
+				4C5CB6CE1ADD3F05009F9973 /* ParkCreateViewController.m */,
+				4C5CB6D01ADD3F2A009F9973 /* ParkStatusViewController.h */,
+				4C5CB6D11ADD3F2A009F9973 /* ParkStatusViewController.m */,
+				4C5CB6D31ADD4014009F9973 /* SearchViewController.h */,
+				4C5CB6D41ADD4014009F9973 /* SearchViewController.m */,
+				4C5CB6D91ADD41B8009F9973 /* CategoryListViewController.h */,
+				4C5CB6DA1ADD41B8009F9973 /* CategoryListViewController.m */,
+				4C5CB6DC1ADD42A0009F9973 /* MagazaViewController.h */,
+				4C5CB6DD1ADD42A0009F9973 /* MagazaViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5CB6AC1ADD3CC2009F9973 /* ViewController.m in Sources */,
+				4C5CB6DB1ADD41B8009F9973 /* CategoryListViewController.m in Sources */,
+				4C5CB6DE1ADD42A0009F9973 /* MagazaViewController.m in Sources */,
 				4C5CB6A91ADD3CC2009F9973 /* AppDelegate.m in Sources */,
 				4C5CB6A61ADD3CC2009F9973 /* main.m in Sources */,
+				4C5CB6CF1ADD3F05009F9973 /* ParkCreateViewController.m in Sources */,
+				4C5CB6D21ADD3F2A009F9973 /* ParkStatusViewController.m in Sources */,
+				4C5CB6D51ADD4014009F9973 /* SearchViewController.m in Sources */,
+				4C5CB6CB1ADD3E96009F9973 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
